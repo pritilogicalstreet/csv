@@ -1,0 +1,7 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: upload_csv
+  pool: 5
+  username: postgres
+  password: postgres
