@@ -1,6 +1,4 @@
-<br><br>
 <%= form_tag import_users_path, multipart: true, class: 'form-inline' do %>
-
   <%= file_field_tag :file %>
 	<%= submit_tag "Import CSV", class: 'btn btn-info' %>
 <% end %><br>

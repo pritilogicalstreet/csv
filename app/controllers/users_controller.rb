@@ -8,8 +8,8 @@ class UsersController < ApplicationController
   end
   
   def import
-    a = User.import(params[:file])
-    redirect_to users_path, notice: "#{a}"
+    b = User.import(params[:file])
+    redirect_to users_path, notice: "#{b}"
   end
 
   def new
